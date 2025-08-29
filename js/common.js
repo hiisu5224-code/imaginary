@@ -1,6 +1,9 @@
 // common.js: 공통 스크립트
 
 document.addEventListener("DOMContentLoaded", function () {
+  /* aos 초기화 */
+  AOS.init();
+
   const btnTop = document.querySelector(".btn-top");
   if (!btnTop) return;
 
